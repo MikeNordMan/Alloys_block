@@ -21,6 +21,11 @@ def dt():
     now = now.strftime('%d.%m.%Y')
     return now
 
+'''Функция ничего не делает нужна для теста GitHub'''
+def gitTest():
+    pass
+
+
 '''Функция обновления списка марок сплавов'''
 def refreshAlloyList(urls):
     try:
